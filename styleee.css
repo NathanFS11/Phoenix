@@ -264,8 +264,84 @@ body
       transform: translateX(-20px);
     }
   }
-
-
 #logo {
   margin-left: 100px;
 }
+
+#row1, #row2, #row3 {
+  margin: 15px;
+}
+
+#row1 {
+  display: flex;
+}
+
+#row2 {
+  display: flex;
+}
+
+#row3 {
+  display: flex;
+}
+
+#row3 div {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+#row3 div img {
+  margin-left: 70px;
+}
+
+#row3 div button {
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: rgb(255, 255, 255);
+  color: orange;
+  width: 150px;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  margin-left: 18%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.btn-primary:hover {
+  background-color: #f5760e;
+}
+
+header img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: 60%;
+  width: 40%;
+}
+
+#calen{
+  display: flex;
+}
+
+div #eletro{
+  display: flex;
+  margin-left: 70px;
+}
+
+div #mec{
+  display: flex;
+  margin-left: 70px;
+}
+#elite{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: 60%;
+  width: 40%;
+}
+
+
+
+
