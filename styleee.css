@@ -270,6 +270,7 @@ body
 
 #row1, #row2, #row3 {
   margin: 15px;
+  font-family: Times New Roman;
 }
 
 #row1 {
@@ -282,19 +283,6 @@ body
 
 #row3 {
   display: flex;
-}
-
-#row3 div {
-  margin: 10px;
-  margin-left: 50px;
-}
-
-#row3 div img {
-  margin-left: 70px;
-}
-
-#row3 div button {
-  margin: auto;
 }
 
 .btn-primary {
@@ -343,5 +331,51 @@ div #mec{
 }
 
 
+#row4, #row5, #row6 {
+  margin: 15px;
+  font-family: Times New Roman;
+}
 
+#row4 {
+  display: flex;
+}
 
+#row5 {
+  display: flex;
+}
+
+#row6 {
+  display: flex;
+}
+
+#borracheiros{
+    width: 500px;
+   }
+   
+   #oscoelce{
+     width: 500px;
+   
+   }
+   
+   #data{
+     width: 300px;
+   }
+   
+   #som{
+     width: 300px;
+   }
+   
+   #mic{
+     width: 300px;
+   }
+   
+   #tv {
+     width: 300px;
+   }
+   
+   #salasespeciais {
+     height: 70px;
+     width: 80px;
+    
+   }
+   
