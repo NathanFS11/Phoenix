@@ -3,6 +3,7 @@ body
   background: -webkit-radial-gradient(#ffa500, #ff8800, #f5760e);
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  width: 100vw;
 }
 
     a{
@@ -251,21 +252,38 @@ body
   margin-left: 100px;
 }
 
+#calen {
+  margin: auto;
+}
+
 #row1, #row2, #row3 {
-  margin: 15px;
   font-family: Times New Roman;
 }
 
 #row1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #row2 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#row2 div {
+  
 }
 
 #row3 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#row3 div {
+  width: 215px;
 }
 
 .btn-primary {
@@ -369,9 +387,9 @@ header img {
 }
 
 #total {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .agendamento {
@@ -478,34 +496,4 @@ margin-bottom: 20px;
  font-size: 26px;
  font-weight: 800;
 }
-
-#cadastro{
- background-color: rgb(255, 255, 255);
- color: orange;
- width: 350px;
- height: 50px;
- border-style: none;
- border-radius: 10px;
- font-size: 26px;
- font-weight: 800;
- margin: auto;
-}
-
-#cadastro form {
-  background-color: rgb(255, 255, 255);
-}
-
-#fotoaluno{
-  width:200px;
-}
-#fotoprof{
-width: 200px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
