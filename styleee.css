@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body
 {
   background: -webkit-radial-gradient(#ffa500, #ff8800, #f5760e);
@@ -275,7 +277,7 @@ body
   border-radius: 10px;
   margin-left: 18%;
   font-size: 20px;
-  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn-primary:hover {
@@ -407,8 +409,9 @@ div #mec{
 }
 
 #opçoes button {
-  width: 300px;
-  margin: 5px 5px;
+  width: 250px;
+  margin: 3px 3px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #concluido{
@@ -423,3 +426,8 @@ div #mec{
   width: 100%;
 }
 
+div h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

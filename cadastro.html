@@ -2,37 +2,17 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="tudo.css" />
+  <link rel="stylesheet" type="text/css" href="logincadastro.css" />
   <title>ÁREA DE CADASTRO E LOGIN</title>
-  <style>
-    #login{
-    position: absolute;
-    top: 0px;
-    width: 30%; 
-    padding: 18px 6% 60px 6%;
-    margin: 0 0 35px 0;
-    background: rgb(247, 247, 247);
-    border: 1px solid rgba(189, 171, 147, 0.8);
-    
-    -webkit-box-shadow: 5px;
-    border-radius: 5px;
-    
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: both;
-  
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
-  }
-  </style>
 </head>
 <body>
   <div class="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
 
-    <div id="login">
+    <div class="content">
+
+    <div id="cadastro">
        <form method="post" action=""> 
          <h1>Cadastro</h1> 
 
@@ -41,18 +21,18 @@
           <input id="nome_cad" name="nome_cad" required="required" type="text" 
           placeholder="Digite seu nome"/>
         </p>
-
+        
           <p> 
             <label for="email_cad">Seu e-mail</label>
             <input id="email_cad" name="email_cad" required="required" type="email" 
             placeholder="Digite seu email"/> 
             </p>
-
+        
          <p> 
       <label for="date_cad">Data de Nascimento</label>
       <input id="date_cad" name="date_cad" required="required" type="date" placeholder="Digite sua data de nascimento">
          </p>
-
+         
           <p> 
            <label for="senha_cad">Sua senha</label>
         <input id="senha_cad" name="senha_cad" required="required" type="password" 
@@ -60,16 +40,18 @@
          </p>
 
           <p> 
-          <a href="home.html"><input type="button" value="Cadastrar"/></a>
+          <a href="home.html"><input type="button" value="Cadastrar"/></a> 
          </p>
 
-          <p class="link">
-            Já tem conta?
-            <a href="login.html"> Ir para Login </a>
-         </p>
+         <div class="link">
+          <p>
+            Já tem uma conta?
+            <a href="login.html">Logar</a>
+          </p>
+         </div>
         </form>
       </div>
     </div>
   </div>
 </body>
-</html> 
+</html>

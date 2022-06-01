@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body
 {
   background: -webkit-radial-gradient(#ffa500, #ff8800, #f5760e);
@@ -257,33 +259,25 @@ body
 }
 
 #row1, #row2, #row3 {
-  font-family: Times New Roman;
+
 }
 
 #row1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #row2 {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-#row2 div {
-  
+  justify-content: space-around;
 }
 
 #row3 {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-#row3 div {
-  width: 215px;
+  justify-content: space-around;
 }
 
 .btn-primary {
@@ -322,6 +316,7 @@ header img {
 
 #calen{
   display: flex;
+  
 }
 
 div #eletro{
@@ -331,7 +326,6 @@ div #eletro{
 
 #row4, #row5, #row6 {
   margin: 15px;
-  font-family: Times New Roman;
 }
 
 #row4 {
@@ -348,7 +342,6 @@ div #eletro{
 
 .p1, .p2, .p3 {
   margin: 15px;
-  font-family: Times New Roman;
 }
 
 .p1 {
@@ -397,6 +390,8 @@ header img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transform: translate(auto, 30%);
+  transform: translateY(30vh);
 } 
 
 .form-select {
@@ -419,12 +414,12 @@ header img {
 }
 
 #oscoelce {
-width: 375px;
+width: 250px;
 margin-bottom: 10px;
 }
 
 #borracheiros {
-width: 335px;
+width: 250px;
 margin-bottom: 20px;
 }
 
@@ -451,22 +446,6 @@ margin-bottom: 20px;
 .card{
   width: 100%;
   margin: auto;
-}
-
-#data{
-  width: 300px;
-}
-
-#som{
-  width: 300px;
-}
-
-#mic{
-  width: 300px;
-}
-
-#tv {
-  width: 300px;
 }
 
 #logo{
@@ -497,3 +476,46 @@ margin-bottom: 20px;
  font-weight: 800;
 }
 
+#project{
+  width: 150px;
+  margin-top: 15px;
+}
+
+#tvs{
+  width: 150px;
+}
+
+#caixa{
+  width: 150px;
+ 
+}
+
+#mic{
+  width: 150px;
+}
+
+#refeitorio{
+  width: 150px;
+}
+
+#quadra{
+  width: 150px;
+}
+
+#biblioteca{
+  width: 150px;
+}
+
+#teatro{
+  width: 150px;
+}
+
+#auditorio{
+  width: 150px;
+}
+
+#lab{
+ margin-top: 5px;
+ margin-right: 15px;
+  width: 150px;
+}
