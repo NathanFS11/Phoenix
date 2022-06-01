@@ -370,8 +370,8 @@ div #eletro{
 }
 
 header img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 #salasespeciais {
@@ -420,7 +420,6 @@ margin-bottom: 10px;
 
 #borracheiros {
 width: 250px;
-margin-bottom: 20px;
 }
 
 #opçoes {
@@ -479,43 +478,109 @@ margin-bottom: 20px;
 #project{
   width: 150px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #tvs{
   width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #caixa{
   width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
  
 }
 
 #mic{
   width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #refeitorio{
   width: 150px;
+  margin-bottom: 10px;
 }
 
 #quadra{
   width: 150px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 #biblioteca{
   width: 150px;
+  margin-bottom: 10px;
 }
 
 #teatro{
   width: 150px;
+  margin-bottom: 10px;
 }
 
 #auditorio{
   width: 150px;
+  margin-bottom: 10px;
 }
 
 #lab{
  margin-top: 5px;
  margin-right: 15px;
+ margin-left: 30px;
+ margin-bottom: 10px;
   width: 150px;
+}
+
+#mat{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#bio{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#fisica{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#infor{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#quimica{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#linguas{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#labtitle {
+  font-size: 23px;
+}
+
+#button {
+  margin-left: 20px;
+}
+
+#row1 h4 {
+  background-color: #ffa500;
+  border-radius: 10px;
+}
+#row2 h4 {
+  background-color: #ffa500;
+  border-radius: 10px;
+}
+#row3 h4 {
+  background-color: #ffa500;
+  border-radius: 10px;
 }
